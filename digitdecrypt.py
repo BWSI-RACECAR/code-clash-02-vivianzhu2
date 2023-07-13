@@ -19,10 +19,12 @@ class Solution:
             #      digitdecrypt(sum)
             # else:
             #      return sum
+            if num<0:
+                raise ValueError("Invalid argument. Please enter a positive integer.")
             while(num>0):
                 dig_list= [int[i]for i in str(num)]
                 num=0
-                for i in avg_list:
+                for i in dig_list:
                   num=num+1
             return num
 def main():
