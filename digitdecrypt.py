@@ -21,7 +21,7 @@ class Solution:
             #      return sum
             if num<0:
                 raise ValueError("Invalid argument. Please enter a positive integer.")
-            while(num>0):
+            while(num>9):
                 dig_list= [int[i]for i in str(num)]
                 num=0
                 for i in dig_list:
