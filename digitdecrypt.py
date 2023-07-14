@@ -6,16 +6,16 @@ class Solution:
             digitlist=[]
             i=0
             # #TODO: Write code below   to returnn an int with the solution to the prompt.
-            while(num%10!=0):
+            while(num//10!=0):
                 digitlist.append(num%10)
                 num=num//10
                 i+=1
             sum=0
            # digitlist=digitlist[::-1]
-           # print(digitlist)
+            #print(digitlist)
             for i in range(0,len(digitlist)):
                  sum+= digitlist[i]
-          #  print(sum)
+            #print(sum)
             if(sum>10):
                  return self.digitdecrypt(sum)
             else:
