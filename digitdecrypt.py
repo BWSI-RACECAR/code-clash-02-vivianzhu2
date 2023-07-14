@@ -6,7 +6,7 @@ class Solution:
             digitlist=[]
             i=0
             # #TODO: Write code below   to returnn an int with the solution to the prompt.
-            while(num//10!=0):
+            while(num!=0):
                 digitlist.append(num%10)
                 num=num//10
                 i+=1
