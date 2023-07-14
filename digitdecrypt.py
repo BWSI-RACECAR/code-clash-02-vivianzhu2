@@ -30,7 +30,7 @@ class Solution:
             # return num
 def main():
     input1= input()
-    input2 = int("48")
+    input2 = int(input1)
 
     
     tc1 = Solution()
